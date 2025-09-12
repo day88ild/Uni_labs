@@ -1,0 +1,15 @@
+[project]
+name = "uni-labs"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "dora",
+    "mypy>=1.18.1",
+    "pandas>=2.3.2",
+    "scikit-learn>=1.6.1",
+]
+
+[tool.uv.sources]
+dora = { git = "https://github.com/NathanEpstein/Dora.git" }

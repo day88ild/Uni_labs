@@ -1,0 +1,10 @@
+data
+*.zip
+*.tar.gz
+*.rar
+
+.venv
+.env
+venv
+env
+__pycache__
